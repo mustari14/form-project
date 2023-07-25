@@ -1,0 +1,132 @@
+/*header start*/
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+   
+}
+header{
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+  
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left:20px;
+    padding: 10px;
+    margin-top:20px ;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+   
+}
+.navbar ul{
+    list-style: none;
+    margin-top: 2%;
+}
+.navbar ul li{
+    background-color: aqua;
+    width:170px ;
+    height:50px ;
+    line-height:50px ;
+    border: 2px solid black;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li:hover{
+    background-color: rgb(143, 245, 9);
+    transition: all ease-in 0.5s;
+}
+.navbar ul ul {
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+/*header end */
+/*form start*/
+.form1{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 70px;
+    margin-top: 20px;
+    border-radius: 5%;
+    box-shadow:0 5px 8px 0 rgb(11, 12, 11), 0 6px 20px 0 rgb(15, 0, 15);
+
+}
+.form1 input{
+    padding: 5px;
+    border-color: blueviolet;
+    border-radius: 40px;
+
+}
+.form1 .btn{
+    font-weight: bold;
+
+}
+
+
+
+
+
+/*form start*/
+/*footer start*/
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    color: white;
+}
+.name h2{
+ font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.text p{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: -30px;
+}
+.icon i{
+    font-size: 40px;
+    position: relative;
+    top: -20px;
+}
+.copy{
+    width: 100%;
+    height:50px ;
+    background-color: black;
+    line-height:50px ;
+    font-size: 25px;
+}
